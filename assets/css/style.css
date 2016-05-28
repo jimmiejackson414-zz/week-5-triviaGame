@@ -1,0 +1,39 @@
+body {
+	background: url(../images/arrested-development-background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+img {
+	width: 100%;
+	height:auto;
+	display:;
+}
+
+#titleRow {
+	background-color:white;
+	margin:auto;
+	text-align: center;
+	float:none;
+	opacity: 0.7;
+}
+
+#timeRemainingRow {
+	background-color: white;
+	margin: auto;
+	margin: auto;
+	text-align:center;
+	float:none;
+	opacity: 0.7;
+}
+
+#questionAnswers {
+	background-color: white;
+	margin: auto;
+	margin: auto;
+	text-align:center;
+	float:none;
+	opacity: 0.7;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<!-- <body background="assets/images/arrested-development-background.jpg"> -->
+
+	<!-- CSS -->
+	<!-- <link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-offset-5 centered" id="titleRow">
+				<h1>Arrested Development</h1>
+				<h2>A Trivia Game</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 col-offset-5 centered" id="timeRemainingRow">
+				<h3>Time Remaining: <span id="timer"></span></h3>
+			</div>
+		</div>
+			<div class="row">
+				<div class="col-md-6 col-offset-5 centered" id="questionAnswers">
+					<h3 id="instructionsTitle"></h3>
+					<input id="button" type="submit" value = "START" onClick="askQuestions()"/>
+				</div>
+			</div>
+	</div>
+
+
+	<!-- Javascript -->
+	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
